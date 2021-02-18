@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f3f7;
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+}
+
+header > navigation a {
+  color: #817e7e;
+}
+.title-logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+  margin-right: 10px;
+}
+
+.nav-icons {
+  height: 25px;
+  width: 25px;
+}
+
+navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3em;
+}
+
+.appTitle {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.menuGroup {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 50%;
+  font-weight: bold;
+}
+
+.menuGroup .active {
+  color: #000;
+}
+
+.profileGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+nav > a:hover {
+  color: #000;
+}
+
+.username {
+  color: #8c00d7;
+}
+
+.main {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.section {
+  width: 100%;
+  /* margin: 15px; */
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainacc {
+  width: 55%;
+  height: 20em;
+  background-color: #ffffff;
+  border-radius: 1.2em;
+  -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
+
+.ordersacc {
+  width: 43%;
+  height: 20em;
+  background-color: #047c6d;
+  border-radius: 1.2em;
+  -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
+
+.foursection {
+  width: 24%;
+  height: 10em;
+  background-color: #ffffff;
+  border-radius: 1.2em;
+  -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
+
+.expensesection {
+  width: 42%;
+  height: 40em;
+  background-color: #ffffff;
+  border-radius: 1.2em;
+  -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
+
+.transactionsection {
+  width: 55%;
+  height: 40em;
+  background-color: #ffffff;
+  border-radius: 1.2em;
+  -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+  box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
