@@ -9,7 +9,7 @@ const App = () => (
       <header>
 
         <a href="/#" className="title-logo">
-          <img src="/public/images/logo.png" className="logo" alt="Logo Alt text" />
+          <img src="/src/images/logo.png" className="logo" alt="Logo Alt text" />
           <div className="appTitle">WebTrans</div>
         </a>
         <navigation>
@@ -20,11 +20,11 @@ const App = () => (
             <a href="/#">Investments</a>
           </nav>
           <nav className="profileGroup">
-            <a href="/#"><img src="/public/images/settings.svg" className="nav-icons" alt="Settings" /></a>
-            <a href="/#"><img src="/public/images/envelope.svg" className="nav-icons" alt="Inbox" /></a>
-            <a href="/#"><img src="/public/images/notification.svg" className="nav-icons" alt="Notifications" /></a>
+            <a href="/#"><img src="/src/images/settings.svg" className="nav-icons" alt="Settings" /></a>
+            <a href="/#"><img src="/src/images/envelope.svg" className="nav-icons" alt="Inbox" /></a>
+            <a href="/#"><img src="/src/images/notification.svg" className="nav-icons" alt="Notifications" /></a>
             <a href="/#" className="username">John Dead</a>
-            <a href="/#"><img src="/public/images/logout.svg" className="nav-icons" alt="Log-out" /></a>
+            <a href="/#"><img src="/src/images/logout.svg" className="nav-icons" alt="Log-out" /></a>
           </nav>
         </navigation>
       </header>
