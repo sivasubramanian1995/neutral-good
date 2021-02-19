@@ -31,7 +31,37 @@ const App = () => (
 
       <div className="main">
         <div className="section">
-          <div className="mainacc" />
+          <div className="mainacc">
+            <div className="box-container">
+              <div className="box-header">
+                <div>Main account</div>
+                <div>Available funds</div>
+              </div>
+            </div>
+
+            <div className="box-container-2">
+              <div className="box-content">
+                <div className="account-details">
+                  <span className="account-title">WEBTRANS SAVINGS ACCOUNT</span>
+                  <span className="account-no">45 8765 1454 4512 6784 1542 6548</span>
+                </div>
+                <div>
+                  <span className="account-balance">98.547,</span>
+                  <span className="account-balance-subset">45</span>
+                  <span className="account-balance-currency">$</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="box-container">
+              <div className="box-content-cta">
+                <a href="/#" className="btn-large btn-primary">Transfer money</a>
+                <a href="/#" className="btn-large btn-secondary">Link accounts</a>
+                <div />
+              </div>
+            </div>
+
+          </div>
           <div className="ordersacc" />
         </div>
         <div className="section">

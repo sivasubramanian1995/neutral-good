@@ -84,7 +84,9 @@ nav > a:hover {
 }
 
 .username {
-  color: #8c00d7;
+  /* color: #8c00d7; */
+  color: #000;
+  font-weight: bold;
 }
 
 .main {
@@ -149,4 +151,88 @@ nav > a:hover {
   -webkit-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
   -moz-box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
   box-shadow: 4px 4px 25px -4px rgba(214, 214, 214, 1);
+}
+
+.box-container {
+  margin: 3em 3em 0em 3em;
+}
+
+.box-container-2 {
+  margin: 2em 3em 0em 3em;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  color: #817e7e;
+  font-size: 0.9em;
+}
+
+.box-content {
+  display: flex;
+  justify-content: space-between;
+  color: #817e7e;
+  font-size: 0.9em;
+}
+
+.box-content-cta {
+  display: flex;
+  justify-content: space-between;
+  color: #817e7e;
+  font-size: 0.9em;
+  width: 50%;
+}
+
+.account-details {
+  display: flex;
+  flex-wrap: 1;
+  flex-direction: column;
+}
+
+.account-title {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.account-no {
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 0.7em;
+}
+
+.account-balance {
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.account-balance-subset {
+  color: #000;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.account-balance-currency {
+  font-size: 2em;
+  margin-left: 0.4em;
+}
+
+.btn-large {
+  padding: 1.4em 2em;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #047c6d;
+  border: 2px solid #047c6d;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #F2F3F8;
+  border: 2px solid #F2F3F8;
+  border-radius: 15px;
+  color: #000;
 }
