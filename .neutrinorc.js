@@ -1,5 +1,6 @@
-const airbnb = require('@neutrinojs/airbnb');
-const react = require('@neutrinojs/react');
+const airbnb = require("@neutrinojs/airbnb");
+const react = require("@neutrinojs/react");
+const copy = require("@neutrinojs/copy");
 
 module.exports = {
   options: {
@@ -9,8 +10,19 @@ module.exports = {
     airbnb(),
     react({
       html: {
-        title: 'neutral-good'
-      }
+        title: "neutral-good",
+      },
+    }),
+    copy({
+      patterns: [
+        {
+          from: "images/**/*",
+        },
+      ],
+      options: {
+        logLevel: "warn",
+      },
+      pluginId: "copy",
     }),
   ],
 };
