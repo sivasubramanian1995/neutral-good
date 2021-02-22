@@ -74,7 +74,7 @@ const App = () => (
               </div>
             </div>
             <div className="box-container">
-              <p className="text-white">
+              <p className="text-white-100 para">
                 {message}
               </p>
             </div>

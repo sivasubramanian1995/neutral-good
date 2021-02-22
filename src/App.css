@@ -241,6 +241,14 @@ nav > a:hover {
   color: #fff;
 }
 
+.text-white-100 {
+  color: #A7D3CE;
+}
+
+.para {
+  font-size: .9em;
+}
+
 .ordersacc-title {
   font-size: 1.2em;
   font-weight: bold;
