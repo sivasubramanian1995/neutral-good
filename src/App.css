@@ -158,7 +158,7 @@ nav > a:hover {
 }
 
 .box-container-2 {
-  margin: 2em 3em 0em 3em;
+  margin: 3em 3em 0em 3em;
 }
 
 .box-header {
@@ -235,4 +235,33 @@ nav > a:hover {
   border: 2px solid #F2F3F8;
   border-radius: 15px;
   color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.ordersacc-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.square-light {
+  border: 1px solid #2E978A;
+  padding: 5px;
+  background-color: #2E978A;
+  margin-left: 1em;
+}
+
+.square-white {
+  border: 1px solid #fff;
+  padding: 5px;
+  background-color: #fff;
+  margin-left: 1em;
+}
+
+.squareGroup {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

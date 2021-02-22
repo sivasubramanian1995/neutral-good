@@ -31,6 +31,7 @@ const App = () => (
 
       <div className="main">
         <div className="section">
+
           <div className="mainacc">
             <div className="box-container">
               <div className="box-header">
@@ -60,9 +61,27 @@ const App = () => (
                 <div />
               </div>
             </div>
-
           </div>
-          <div className="ordersacc" />
+          <div className="ordersacc">
+            <div className="box-container">
+              <div className="box-header text-white ordersacc-title">
+                <div>Define standing orders</div>
+                <div className="squareGroup">
+                  <div className="square-light" />
+                  <div className="square-white" />
+                  <div className="square-light" />
+                </div>
+              </div>
+            </div>
+            <div className="box-container">
+              <p className="text-white">
+                {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+              </p>
+            </div>
+            <div className="box-container-2">
+              <a href="/#" className="btn-large btn-secondary">Define standing orders</a>
+            </div>
+          </div>
         </div>
         <div className="section">
           <div className="foursection" />
