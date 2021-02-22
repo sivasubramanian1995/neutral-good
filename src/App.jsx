@@ -2,7 +2,7 @@ import { hot } from 'react-hot-loader';
 import React from 'react';
 import './App.css';
 
-// const message = 'Welcome to neutral-good';
+const message = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
 const App = () => (
   <div className="App">
     <div className="container outerDesign">
@@ -75,7 +75,7 @@ const App = () => (
             </div>
             <div className="box-container">
               <p className="text-white">
-                {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}
+                {message}
               </p>
             </div>
             <div className="box-container-2">
