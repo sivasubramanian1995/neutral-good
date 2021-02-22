@@ -95,6 +95,7 @@ const App = () => (
         </div>
       </div>
       {/* Main Container ends here */}
+      <div className="footer">Inspired by dribble ♥</div>
     </div>
   </div>
 );
