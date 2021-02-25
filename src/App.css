@@ -232,8 +232,8 @@ nav > a:hover {
 }
 
 .btn-secondary {
-  background-color: #F2F3F8;
-  border: 2px solid #F2F3F8;
+  background-color: #f2f3f8;
+  border: 2px solid #f2f3f8;
   border-radius: 15px;
   color: #000;
   font-weight: 500;
@@ -243,20 +243,20 @@ nav > a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
-  font-size: .9;
+  font-size: 0.9;
   font-weight: 500;
-  color: #8C00D7;
+  color: #8c00d7;
 }
 .text-white {
   color: #fff;
 }
 
 .text-white-100 {
-  color: #A7D3CE;
+  color: #a7d3ce;
 }
 
 .para {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .ordersacc-title {
@@ -265,9 +265,9 @@ nav > a:hover {
 }
 
 .square-light {
-  border: 1px solid #2E978A;
+  border: 1px solid #2e978a;
   padding: 5px;
-  background-color: #2E978A;
+  background-color: #2e978a;
   margin-left: 1em;
 }
 
@@ -282,4 +282,77 @@ nav > a:hover {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.fs-container {
+  display: flex;
+  padding: 1.2em .8em 1em 2.2em;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.fs-head {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fs-head-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.fs-head-bold {
+  font-weight: 500;
+}
+
+.fs-cardno {
+  color: #817e7e;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fs-cardcopy {
+  height: 15px;
+}
+
+.fs-head-card {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 0.5em;
+}
+
+.fs-head-logo img {
+  height: 75px;
+}
+
+.fs-footer-cash {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fs-footer-menu img {
+  height: 15px;
+  margin-right: 15px;
+}
+
+.fs-cash {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.fs-cash-seggr {
+  font-weight: 500;
+}
+
+.fs-cash-currency {
+  font-size: 1.4em;
+  color: #817e7e;
+  margin-left: 5px
 }
